@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CopReader.cs" />
+    <Compile Include="Routine.cs" />
     <Compile Include="RoutineCreatorPage.cs">
       <SubType>Form</SubType>
     </Compile>

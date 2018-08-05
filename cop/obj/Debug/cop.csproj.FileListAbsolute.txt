@@ -1,0 +1,10 @@
+C:\Repos\cop\cop\bin\Debug\cop.exe.config
+C:\Repos\cop\cop\bin\Debug\cop.exe
+C:\Repos\cop\cop\bin\Debug\cop.pdb
+C:\Repos\cop\cop\obj\Debug\cop.csprojAssemblyReference.cache
+C:\Repos\cop\cop\obj\Debug\cop.RoutineCreatorPage.resources
+C:\Repos\cop\cop\obj\Debug\cop.Properties.Resources.resources
+C:\Repos\cop\cop\obj\Debug\cop.csproj.GenerateResource.cache
+C:\Repos\cop\cop\obj\Debug\cop.csproj.CoreCompileInputs.cache
+C:\Repos\cop\cop\obj\Debug\cop.exe
+C:\Repos\cop\cop\obj\Debug\cop.pdb

@@ -25,10 +25,12 @@ namespace cop
         private void RoutineCalcButton_Click(object sender, EventArgs e)
         {
             var cop = new CopReader();
+            var routine = new Routine(null, "Floor");
+            
+            routine.Skills.Add(cop.GetSkill("Front Full", "Floor"));
+            routine.Skills.Add(cop.GetSkill("Front Full", "Floor"));
 
-            Skill skill = cop.GetSkill("Front Full", "Floor");
-
-            RoutineTextArea.AppendText(skill.ToString());
+            RoutineTextArea.AppendText(routine.ToString());
         }
     }
 }

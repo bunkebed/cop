@@ -7,15 +7,25 @@ using System.Xml.Linq;
 
 namespace cop
 {
+    /// <summary>
+    /// Class used to read the COP from disk.
+    /// </summary>
     class CopReader
     {
         #region Constructors
 
+        /// <summary>
+        /// Default constructor for CopReader
+        /// </summary>
         public CopReader()
             : this(null)
         {
         }
 
+        /// <summary>
+        /// Constructor taking an XDocument as an argument
+        /// </summary>
+        /// <param name="cop">XDocument representing the COP</param>
         public CopReader(XDocument cop)
         {
             _cop = cop ?? XDocument.Load(@"C:\Repos\cop\cop\Resources\cop.xml");
@@ -25,6 +35,13 @@ namespace cop
 
         #region Public Methods
 
+
+        /// <summary>
+        /// Retrieve a skill from the COP
+        /// </summary>
+        /// <param name="name">Name of the skill</param>
+        /// <param name="evt">Event the skill is on</param>
+        /// <returns>The data of the skill from the COP</returns>
         public Skill GetSkill(string name, string evt)
         {
             var query = from s in _cop.Descendants("Skill")
