@@ -24,7 +24,11 @@ namespace cop
 
         private void RoutineCalcButton_Click(object sender, EventArgs e)
         {
+            var cop = new CopReader();
 
+            Skill skill = cop.GetSkill("Front Full", "Floor");
+
+            RoutineTextArea.AppendText(skill.ToString());
         }
     }
 }

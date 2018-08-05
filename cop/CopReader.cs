@@ -25,17 +25,18 @@ namespace cop
 
         #region Public Methods
 
-        public Skill GetSkill(string name)
+        public Skill GetSkill(string name, string evt)
         {
             var query = from s in _cop.Descendants("Skill")
-                        where s.Element("Name").Value.ToLower().Equals(name.ToLower())
+                        where s.Parent.Parent.Element("Name").Value.ToLower().Equals(evt.ToLower())
+                        && s.Element("Name").Value.ToLower().Equals(name.ToLower())
                         select s;
 
             var skill = new Skill()
             {
                 Name = query.First().Element("Name").Value,
                 Value = double.Parse(query.First().Element("Value").Value),
-                ElementGroup = query.First().Parent.Value
+                ElementGroup = query.First().Parent.Element("Name").Value
             };
 
             return skill;

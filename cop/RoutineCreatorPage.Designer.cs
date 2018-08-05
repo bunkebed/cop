@@ -55,11 +55,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(1162, 944);
             this.Controls.Add(this.RoutineCalcButton);
             this.Controls.Add(this.RoutineTextArea);
             this.Name = "RoutineCreatorPage";
-            this.Text = "Form1";
+            this.Text = "Routine Creator";
             this.ResumeLayout(false);
 
         }

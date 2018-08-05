@@ -19,8 +19,17 @@ namespace cop
         {
             Name = name ?? "N/A";
             Value = value;
-            elementGroup = elementGroup ?? "N/A";
+            ElementGroup = elementGroup ?? "N/A";
         }
+
+        #region Public Methods
+
+        public override string ToString()
+        {
+            return Name + " | " + Value + " | " + ElementGroup;
+        }
+
+        #endregion
 
         #endregion
 
