@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Code>
+  <Event>
+    <Name>Floor</Name>
+    <Group>
+      <Name>Forward</Name>
+      <Skill>
+        <Name>Front Full</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+  </Event>
+  <Event>
+    <Name>Pommel Horse</Name>
+    <Group>
+      <Name>Scissor</Name>
+      <Skill>
+        <Name>Mikulak</Name>
+        <Value>0.4</Value>
+      </Skill>
+    </Group>
+  </Event>
+  <Event>
+    <Name>Floor</Name>
+    <Group>
+      <Name>Forward</Name>
+      <Skill>
+        <Name>Front Full</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+  </Event>
+  <Event>
+    <Name>Rings</Name>
+    <Group>
+      <Name>Strength</Name>
+      <Skill>
+        <Name>Iron Cross</Name>
+        <Value>0.2</Value>
+      </Skill>
+    </Group>
+  </Event>
+  <Event>
+    <Name>Floor</Name>
+    <Group>
+      <Name>Forward</Name>
+      <Skill>
+        <Name>Front Full</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+  </Event>
+  <Event>
+    <Name>Vault</Name>
+    <Group>
+      <Name>Forward</Name>
+      <Skill>
+        <Name>Handsring Double Front</Name>
+        <Value>5.2</Value>
+      </Skill>
+    </Group>
+  </Event>
+  <Event>
+    <Name>Parallel Bars</Name>
+    <Group>
+      <Name>Long Hang</Name>
+      <Skill>
+        <Name>Peach Basket Handstand</Name>
+        <Value>0.4</Value>
+      </Skill>
+    </Group>
+  </Event>
+  <Event>
+    <Name>High Bar</Name>
+    <Group>
+      <Name>Release</Name>
+      <Skill>
+        <Name>Tkachev</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+  </Event>
+</Code>
+
