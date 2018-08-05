@@ -40,18 +40,6 @@ namespace cop
         {
             var description = "";
 
-
-
-
-
-
-
-
-
-
-
-
-
             foreach(var skill in Skills)
             {
                 description += skill.ToString() + "\n";
