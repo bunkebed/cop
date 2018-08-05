@@ -21,5 +21,10 @@ namespace cop
         {
 
         }
+
+        private void RoutineCalcButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

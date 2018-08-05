@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.RoutineTextArea = new System.Windows.Forms.RichTextBox();
+            this.RoutineCalcButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // RoutineTextArea
@@ -40,13 +41,24 @@
             this.RoutineTextArea.Text = "";
             this.RoutineTextArea.TextChanged += new System.EventHandler(this.RoutineTextArea_TextChanged);
             // 
-            // Form1
+            // RoutineCalcButton
+            // 
+            this.RoutineCalcButton.Location = new System.Drawing.Point(818, 64);
+            this.RoutineCalcButton.Name = "RoutineCalcButton";
+            this.RoutineCalcButton.Size = new System.Drawing.Size(125, 41);
+            this.RoutineCalcButton.TabIndex = 1;
+            this.RoutineCalcButton.Text = "Calc Routine";
+            this.RoutineCalcButton.UseVisualStyleBackColor = true;
+            this.RoutineCalcButton.Click += new System.EventHandler(this.RoutineCalcButton_Click);
+            // 
+            // RoutineCreatorPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1162, 944);
+            this.Controls.Add(this.RoutineCalcButton);
             this.Controls.Add(this.RoutineTextArea);
-            this.Name = "Form1";
+            this.Name = "RoutineCreatorPage";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
@@ -55,6 +67,7 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox RoutineTextArea;
+        private System.Windows.Forms.Button RoutineCalcButton;
     }
 }
 
