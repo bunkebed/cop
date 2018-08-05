@@ -9,6 +9,20 @@
         <Value>0.3</Value>
       </Skill>
     </Group>
+    <Group>
+      <Name>Backward</Name>
+      <Skill>
+        <Name>Back Full</Name>
+        <Value>0.2</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Non-Acrobatic</Name>
+      <Skill>
+        <Name>Wide Arm Press</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
   </Event>
   <Event>
     <Name>Pommel Horse</Name>
@@ -19,14 +33,25 @@
         <Value>0.4</Value>
       </Skill>
     </Group>
-  </Event>
-  <Event>
-    <Name>Floor</Name>
     <Group>
-      <Name>Forward</Name>
+      <Name>Circle</Name>
       <Skill>
-        <Name>Front Full</Name>
+        <Name>Flaired Spindle Over Single Pommel</Name>
+        <Value>0.4</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Travel</Name>
+      <Skill>
+        <Name>Magyar-C</Name>
         <Value>0.3</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Dismount</Name>
+      <Skill>
+        <Name>Handstand Dismount-D</Name>
+        <Value>0.4</Value>
       </Skill>
     </Group>
   </Event>
@@ -39,13 +64,24 @@
         <Value>0.2</Value>
       </Skill>
     </Group>
-  </Event>
-  <Event>
-    <Name>Floor</Name>
     <Group>
-      <Name>Forward</Name>
+      <Name>Swing To Strength</Name>
       <Skill>
-        <Name>Front Full</Name>
+        <Name>Back Uprise Cross</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Swing</Name>
+      <Skill>
+        <Name>Yamawaki</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Dismount</Name>
+      <Skill>
+        <Name>Double Front</Name>
         <Value>0.3</Value>
       </Skill>
     </Group>
@@ -59,6 +95,20 @@
         <Value>5.2</Value>
       </Skill>
     </Group>
+    <Group>
+      <Name>Round-Off</Name>
+      <Skill>
+        <Name>Kaz-Full</Name>
+        <Value>4.8</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Yurchenko</Name>
+      <Skill>
+        <Name>Yurchenko Double Full</Name>
+        <Value>4.8</Value>
+      </Skill>
+    </Group>
   </Event>
   <Event>
     <Name>Parallel Bars</Name>
@@ -69,6 +119,27 @@
         <Value>0.4</Value>
       </Skill>
     </Group>
+    <Group>
+      <Name>Upper-Arm Support</Name>
+      <Skill>
+        <Name>Back-Uprise Front Toss</Name>
+        <Value>0.4</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Support</Name>
+      <Skill>
+        <Name>Straddle 5/4</Name>
+        <Value>0.4</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Dismount</Name>
+      <Skill>
+        <Name>Double Front</Name>
+        <Value>0.4</Value>
+      </Skill>
+    </Group>
   </Event>
   <Event>
     <Name>High Bar</Name>
@@ -76,6 +147,27 @@
       <Name>Release</Name>
       <Skill>
         <Name>Tkachev</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Long Hang</Name>
+      <Skill>
+        <Name>Quast</Name>
+        <Value>0.3</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>In-Bar</Name>
+      <Skill>
+        <Name>Endo</Name>
+        <Value>0.2</Value>
+      </Skill>
+    </Group>
+    <Group>
+      <Name>Dismount</Name>
+      <Skill>
+        <Name>Double Layout</Name>
         <Value>0.3</Value>
       </Skill>
     </Group>
