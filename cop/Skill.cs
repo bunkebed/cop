@@ -22,14 +22,19 @@ namespace cop
             ElementGroup = elementGroup ?? "N/A";
         }
 
+        #endregion
+
         #region Public Methods
 
         public override string ToString()
         {
-            return Name + " | " + Value + " | " + ElementGroup;
+            return Name;
         }
 
-        #endregion
+        public string ToStringDetailed()
+        {
+            return Name + " | " + Value + " | " + ElementGroup;
+        }
 
         #endregion
 

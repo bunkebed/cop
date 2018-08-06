@@ -48,7 +48,7 @@ namespace cop
 
             foreach(var skill in Skills)
             {
-                description += skill.ToString() + "\n";
+                description += skill.ToStringDetailed() + "\n";
             }
 
             return description;

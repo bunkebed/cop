@@ -117,6 +117,30 @@ namespace cop
             return groups;
         }
 
+        public List<Skill> GetSkillsByGroup(string evt, string grp)
+        {
+            var query = from s in _cop.Descendants("Skill")
+                        where s.Parent.Parent.Element("Name")
+                        .Value.ToLower().Equals(evt.ToLower())
+                        && s.Parent.Element("Name").Value
+                        .ToLower().Equals(grp.ToLower())
+                        select s;
+
+            var skills = new List<Skill>();
+
+            foreach(var s in query)
+            {
+                skills.Add(new Skill()
+                {
+                    Name = s.Element("Name").Value,
+                    Value = double.Parse(s.Element("Value").Value),
+                    ElementGroup = grp
+                });
+            }
+
+            return skills;
+        }
+
         #endregion
 
         #region Fields

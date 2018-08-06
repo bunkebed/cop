@@ -56,7 +56,14 @@ namespace cop
 
         private void ElementGroupComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            var skills = cop.GetSkillsByGroup(
+                EventComboBox.SelectedItem.ToString(),
+                ElementGroupComboBox.SelectedItem.ToString());
 
+            foreach (var skill in skills)
+            {
+                this.SkillComboBox.Items.Add(skill);
+            }
         }
     }
 }
