@@ -35,13 +35,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-/.vs/cop/v15/Server/sqlite3/storage.ide-wal
-/.vs/cop/v15/Server/sqlite3/storage.ide-shm
-/.vs/cop/v15/Server/sqlite3/storage.ide
-/.vs/cop/v15/Server/sqlite3/db.lock
-/.vs/cop/v15/Server/sqlite3
-/.vs/cop/v15/.suo
-/.vs/cop/v15
-/.vs/VSWorkspaceState.json
-/.vs/ProjectSettings.json
-/.vs
+/.vs/
