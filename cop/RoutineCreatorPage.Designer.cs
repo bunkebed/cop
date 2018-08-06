@@ -45,8 +45,10 @@
             // 
             // RoutineTextArea
             // 
+            this.RoutineTextArea.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoutineTextArea.Location = new System.Drawing.Point(599, 35);
             this.RoutineTextArea.Name = "RoutineTextArea";
+            this.RoutineTextArea.ReadOnly = true;
             this.RoutineTextArea.Size = new System.Drawing.Size(448, 195);
             this.RoutineTextArea.TabIndex = 0;
             this.RoutineTextArea.Text = "";
@@ -111,9 +113,12 @@
             this.AddSkillButton.TabIndex = 8;
             this.AddSkillButton.Text = "Add Skill";
             this.AddSkillButton.UseVisualStyleBackColor = true;
+            this.AddSkillButton.Click += new System.EventHandler(this.AddSkillButton_Click);
             // 
             // SkillComboBox
             // 
+            this.SkillComboBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.SkillComboBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.SkillComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SkillComboBox.FormattingEnabled = true;
             this.SkillComboBox.Location = new System.Drawing.Point(243, 175);
@@ -134,6 +139,8 @@
             // 
             // ElementGroupComboBox
             // 
+            this.ElementGroupComboBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.ElementGroupComboBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.ElementGroupComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ElementGroupComboBox.FormattingEnabled = true;
             this.ElementGroupComboBox.Location = new System.Drawing.Point(243, 103);
@@ -165,13 +172,15 @@
             // 
             // EventComboBox
             // 
+            this.EventComboBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.EventComboBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.EventComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EventComboBox.FormattingEnabled = true;
             this.EventComboBox.Location = new System.Drawing.Point(243, 32);
             this.EventComboBox.Name = "EventComboBox";
             this.EventComboBox.Size = new System.Drawing.Size(232, 45);
             this.EventComboBox.TabIndex = 2;
-            this.EventComboBox.Text = "Select An Event";
+            this.EventComboBox.Text = "Select An Event:";
             this.EventComboBox.SelectedIndexChanged += new System.EventHandler(this.EventComboBox_SelectedIndexChanged);
             // 
             // RoutineCreatorPage

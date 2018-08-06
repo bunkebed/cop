@@ -42,6 +42,26 @@ namespace cop
 
         #region Public Methods
 
+        /// <summary>
+        /// Calculate the difficulty value of the routine
+        /// </summary>
+        /// <returns>Difficulty value of the routine</returns>
+        public double CalculateDifficulty()
+        {
+            var value = 0.0;
+
+            foreach (var skill in Skills)
+            {
+                value += skill.Value;
+            }
+
+            return value;
+        }
+
+        /// <summary>
+        /// Override of the ToString method
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             var description = "";
@@ -59,7 +79,7 @@ namespace cop
         #region Fields
 
         public List<Skill> Skills { get; private set; }
-        public string Event { get; private set; }
+        public string Event { get;  set; }
 
         #endregion
     }
