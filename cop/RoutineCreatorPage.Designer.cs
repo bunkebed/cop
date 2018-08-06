@@ -31,15 +31,15 @@
             this.RoutineTextArea = new System.Windows.Forms.RichTextBox();
             this.RoutineCalcButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.EventComboBox = new System.Windows.Forms.ComboBox();
-            this.EventLabel = new System.Windows.Forms.Label();
-            this.ElementGroupLabel = new System.Windows.Forms.Label();
-            this.ElementGroupComboBox = new System.Windows.Forms.ComboBox();
-            this.SkillLabel = new System.Windows.Forms.Label();
-            this.SkillComboBox = new System.Windows.Forms.ComboBox();
-            this.AddSkillButton = new System.Windows.Forms.Button();
-            this.DifficultyTextBox = new System.Windows.Forms.TextBox();
             this.DifficultyLabel = new System.Windows.Forms.Label();
+            this.DifficultyTextBox = new System.Windows.Forms.TextBox();
+            this.AddSkillButton = new System.Windows.Forms.Button();
+            this.SkillComboBox = new System.Windows.Forms.ComboBox();
+            this.SkillLabel = new System.Windows.Forms.Label();
+            this.ElementGroupComboBox = new System.Windows.Forms.ComboBox();
+            this.ElementGroupLabel = new System.Windows.Forms.Label();
+            this.EventLabel = new System.Windows.Forms.Label();
+            this.EventComboBox = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,75 +82,15 @@
             this.panel1.Size = new System.Drawing.Size(1071, 384);
             this.panel1.TabIndex = 2;
             // 
-            // EventComboBox
+            // DifficultyLabel
             // 
-            this.EventComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EventComboBox.FormattingEnabled = true;
-            this.EventComboBox.Location = new System.Drawing.Point(243, 32);
-            this.EventComboBox.Name = "EventComboBox";
-            this.EventComboBox.Size = new System.Drawing.Size(232, 45);
-            this.EventComboBox.TabIndex = 2;
-            this.EventComboBox.Text = "Select An Event";
-            // 
-            // EventLabel
-            // 
-            this.EventLabel.AutoSize = true;
-            this.EventLabel.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EventLabel.Location = new System.Drawing.Point(17, 35);
-            this.EventLabel.Name = "EventLabel";
-            this.EventLabel.Size = new System.Drawing.Size(92, 37);
-            this.EventLabel.TabIndex = 3;
-            this.EventLabel.Text = "Event:";
-            // 
-            // ElementGroupLabel
-            // 
-            this.ElementGroupLabel.AutoSize = true;
-            this.ElementGroupLabel.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ElementGroupLabel.Location = new System.Drawing.Point(17, 103);
-            this.ElementGroupLabel.Name = "ElementGroupLabel";
-            this.ElementGroupLabel.Size = new System.Drawing.Size(203, 37);
-            this.ElementGroupLabel.TabIndex = 4;
-            this.ElementGroupLabel.Text = "Element Group:";
-            // 
-            // ElementGroupComboBox
-            // 
-            this.ElementGroupComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ElementGroupComboBox.FormattingEnabled = true;
-            this.ElementGroupComboBox.Location = new System.Drawing.Point(243, 103);
-            this.ElementGroupComboBox.Name = "ElementGroupComboBox";
-            this.ElementGroupComboBox.Size = new System.Drawing.Size(232, 45);
-            this.ElementGroupComboBox.TabIndex = 5;
-            this.ElementGroupComboBox.Text = "Select A Group";
-            // 
-            // SkillLabel
-            // 
-            this.SkillLabel.AutoSize = true;
-            this.SkillLabel.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SkillLabel.Location = new System.Drawing.Point(17, 175);
-            this.SkillLabel.Name = "SkillLabel";
-            this.SkillLabel.Size = new System.Drawing.Size(73, 37);
-            this.SkillLabel.TabIndex = 6;
-            this.SkillLabel.Text = "Skill:";
-            // 
-            // SkillComboBox
-            // 
-            this.SkillComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SkillComboBox.FormattingEnabled = true;
-            this.SkillComboBox.Location = new System.Drawing.Point(243, 175);
-            this.SkillComboBox.Name = "SkillComboBox";
-            this.SkillComboBox.Size = new System.Drawing.Size(232, 45);
-            this.SkillComboBox.TabIndex = 7;
-            this.SkillComboBox.Text = "Select A Skill";
-            // 
-            // AddSkillButton
-            // 
-            this.AddSkillButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddSkillButton.Location = new System.Drawing.Point(350, 246);
-            this.AddSkillButton.Name = "AddSkillButton";
-            this.AddSkillButton.Size = new System.Drawing.Size(125, 41);
-            this.AddSkillButton.TabIndex = 8;
-            this.AddSkillButton.Text = "Add Skill";
-            this.AddSkillButton.UseVisualStyleBackColor = true;
+            this.DifficultyLabel.AutoSize = true;
+            this.DifficultyLabel.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DifficultyLabel.Location = new System.Drawing.Point(815, 243);
+            this.DifficultyLabel.Name = "DifficultyLabel";
+            this.DifficultyLabel.Size = new System.Drawing.Size(96, 29);
+            this.DifficultyLabel.TabIndex = 10;
+            this.DifficultyLabel.Text = "Difficulty: ";
             // 
             // DifficultyTextBox
             // 
@@ -162,15 +102,77 @@
             this.DifficultyTextBox.Text = "0.0";
             this.DifficultyTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // DifficultyLabel
+            // AddSkillButton
             // 
-            this.DifficultyLabel.AutoSize = true;
-            this.DifficultyLabel.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DifficultyLabel.Location = new System.Drawing.Point(815, 243);
-            this.DifficultyLabel.Name = "DifficultyLabel";
-            this.DifficultyLabel.Size = new System.Drawing.Size(96, 29);
-            this.DifficultyLabel.TabIndex = 10;
-            this.DifficultyLabel.Text = "Difficulty: ";
+            this.AddSkillButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddSkillButton.Location = new System.Drawing.Point(350, 246);
+            this.AddSkillButton.Name = "AddSkillButton";
+            this.AddSkillButton.Size = new System.Drawing.Size(125, 41);
+            this.AddSkillButton.TabIndex = 8;
+            this.AddSkillButton.Text = "Add Skill";
+            this.AddSkillButton.UseVisualStyleBackColor = true;
+            // 
+            // SkillComboBox
+            // 
+            this.SkillComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SkillComboBox.FormattingEnabled = true;
+            this.SkillComboBox.Location = new System.Drawing.Point(243, 175);
+            this.SkillComboBox.Name = "SkillComboBox";
+            this.SkillComboBox.Size = new System.Drawing.Size(232, 45);
+            this.SkillComboBox.TabIndex = 7;
+            this.SkillComboBox.Text = "Select A Skill";
+            // 
+            // SkillLabel
+            // 
+            this.SkillLabel.AutoSize = true;
+            this.SkillLabel.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SkillLabel.Location = new System.Drawing.Point(17, 175);
+            this.SkillLabel.Name = "SkillLabel";
+            this.SkillLabel.Size = new System.Drawing.Size(73, 37);
+            this.SkillLabel.TabIndex = 6;
+            this.SkillLabel.Text = "Skill:";
+            // 
+            // ElementGroupComboBox
+            // 
+            this.ElementGroupComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ElementGroupComboBox.FormattingEnabled = true;
+            this.ElementGroupComboBox.Location = new System.Drawing.Point(243, 103);
+            this.ElementGroupComboBox.Name = "ElementGroupComboBox";
+            this.ElementGroupComboBox.Size = new System.Drawing.Size(232, 45);
+            this.ElementGroupComboBox.TabIndex = 5;
+            this.ElementGroupComboBox.Text = "Select A Group";
+            this.ElementGroupComboBox.SelectedIndexChanged += new System.EventHandler(this.ElementGroupComboBox_SelectedIndexChanged);
+            // 
+            // ElementGroupLabel
+            // 
+            this.ElementGroupLabel.AutoSize = true;
+            this.ElementGroupLabel.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ElementGroupLabel.Location = new System.Drawing.Point(17, 103);
+            this.ElementGroupLabel.Name = "ElementGroupLabel";
+            this.ElementGroupLabel.Size = new System.Drawing.Size(203, 37);
+            this.ElementGroupLabel.TabIndex = 4;
+            this.ElementGroupLabel.Text = "Element Group:";
+            // 
+            // EventLabel
+            // 
+            this.EventLabel.AutoSize = true;
+            this.EventLabel.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EventLabel.Location = new System.Drawing.Point(17, 35);
+            this.EventLabel.Name = "EventLabel";
+            this.EventLabel.Size = new System.Drawing.Size(92, 37);
+            this.EventLabel.TabIndex = 3;
+            this.EventLabel.Text = "Event:";
+            // 
+            // EventComboBox
+            // 
+            this.EventComboBox.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EventComboBox.FormattingEnabled = true;
+            this.EventComboBox.Location = new System.Drawing.Point(243, 32);
+            this.EventComboBox.Name = "EventComboBox";
+            this.EventComboBox.Size = new System.Drawing.Size(232, 45);
+            this.EventComboBox.TabIndex = 2;
+            this.EventComboBox.Text = "Select An Event";
+            this.EventComboBox.SelectedIndexChanged += new System.EventHandler(this.EventComboBox_SelectedIndexChanged);
             // 
             // RoutineCreatorPage
             // 

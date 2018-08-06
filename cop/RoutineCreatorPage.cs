@@ -15,6 +15,13 @@ namespace cop
         public RoutineCreatorPage()
         {
             InitializeComponent();
+            cop = new CopReader();
+
+            var events = cop.GetEvents();
+            foreach(var evt in events)
+            {
+                this.EventComboBox.Items.Add(evt);
+            }            
         }
 
         private void RoutineTextArea_TextChanged(object sender, EventArgs e)
@@ -24,7 +31,6 @@ namespace cop
 
         private void RoutineCalcButton_Click(object sender, EventArgs e)
         {
-            var cop = new CopReader();
             var skills = new List<string>();
 
             skills.Add("Front Full");
@@ -34,6 +40,23 @@ namespace cop
             var routine = cop.GetRoutine(skills, "Floor");
 
             RoutineTextArea.AppendText(routine.ToString());
+        }
+
+        readonly CopReader cop;
+
+        private void EventComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var groups = cop.GetGroupsByEvent(EventComboBox.SelectedItem.ToString());
+
+            foreach(var group in groups)
+            {
+                this.ElementGroupComboBox.Items.Add(group);
+            }
+        }
+
+        private void ElementGroupComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
