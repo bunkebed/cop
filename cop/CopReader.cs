@@ -35,7 +35,6 @@ namespace cop
 
         #region Public Methods
 
-
         /// <summary>
         /// Retrieve a skill from the COP
         /// </summary>
@@ -57,6 +56,18 @@ namespace cop
             };
 
             return skill;
+        }
+
+        public Routine GetRoutine(List<string> skills, string evt)
+        {
+            var routine = new Routine(evt);
+
+            foreach(var skill in skills)
+            {
+                routine.Skills.Add(GetSkill(skill, evt));
+            }
+
+            return routine;
         }
 
         #endregion

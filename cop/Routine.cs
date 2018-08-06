@@ -17,8 +17,14 @@ namespace cop
         /// Routine defualt constructor
         /// </summary>
         public Routine()
-            : this(null, null)
+            : this(null)
         {
+        }
+
+        public Routine(string evt)
+        {
+            Skills = new List<Skill>();
+            Event = evt;
         }
 
         /// <summary>
