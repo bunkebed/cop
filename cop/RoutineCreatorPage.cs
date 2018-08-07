@@ -93,6 +93,10 @@ namespace cop
             UpdateRoutineTextArea();
         }
 
+        private void RoutineTextArea_TextChanged(object sender, EventArgs e)
+        {
+        }
+
         /// <summary>
         /// Update the contents of the RoutineTextArea
         /// </summary>

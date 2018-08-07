@@ -8,6 +8,14 @@
         <Name>Front Full</Name>
         <Value>0.3</Value>
       </Skill>
+      <Skill>
+        <Name>Double Front</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Front Double Full</Name>
+        <Value>0.4</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Backward</Name>
@@ -15,11 +23,27 @@
         <Name>Back Full</Name>
         <Value>0.2</Value>
       </Skill>
+      <Skill>
+        <Name>Back Double Full</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Double Back Tuck</Name>
+        <Value>0.3</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Non-Acrobatic</Name>
       <Skill>
         <Name>Wide Arm Press</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Flaired Spindle To Handstand-D</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>V-Press</Name>
         <Value>0.3</Value>
       </Skill>
     </Group>
@@ -32,12 +56,28 @@
         <Name>Mikulak</Name>
         <Value>0.4</Value>
       </Skill>
+      \<Skill>
+        <Name>Scissor Full Travel</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Li Ning</Name>
+        <Value>0.4</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Circle</Name>
       <Skill>
         <Name>Flaired Spindle Over Single Pommel</Name>
         <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Sohn</Name>
+        <Value>0.5</Value>
+      </Skill>
+      <Skill>
+        <Name>Belugo</Name>
+        <Value>0.5</Value>
       </Skill>
     </Group>
     <Group>
@@ -46,11 +86,31 @@
         <Name>Magyar-C</Name>
         <Value>0.3</Value>
       </Skill>
+      <Skill>
+        <Name>Magyar-D</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Sivado-C</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Sivado-D</Name>
+        <Value>0.4</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Dismount</Name>
       <Skill>
         <Name>Handstand Dismount-D</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Handstand Dismount-C</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Triple Russian</Name>
         <Value>0.4</Value>
       </Skill>
     </Group>
@@ -63,12 +123,28 @@
         <Name>Iron Cross</Name>
         <Value>0.2</Value>
       </Skill>
+      <Skill>
+        <Name>Straddle Planche</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
+        <Name>Straight Planche</Name>
+        <Value>0.3</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Swing To Strength</Name>
       <Skill>
         <Name>Back Uprise Cross</Name>
         <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Back Uprise Straddle Planche</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Back Uprise Planche</Name>
+        <Value>0.4</Value>
       </Skill>
     </Group>
     <Group>
@@ -77,12 +153,36 @@
         <Name>Yamawaki</Name>
         <Value>0.3</Value>
       </Skill>
+      <Skill>
+        <Name>Johanasson</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Back Giant</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Front Giant</Name>
+        <Value>0.3</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Dismount</Name>
       <Skill>
         <Name>Double Front</Name>
         <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Double Layout</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Full Twisting Double Back Tucked</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>3/2 Twisting Double Bakc Tucked</Name>
+        <Value>0.4</Value>
       </Skill>
     </Group>
   </Event>
@@ -101,12 +201,20 @@
         <Name>Kaz-Full</Name>
         <Value>4.8</Value>
       </Skill>
+      <Skill>
+        <Name>Kaz 3/2</Name>
+        <Value>5.2</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Yurchenko</Name>
       <Skill>
         <Name>Yurchenko Double Full</Name>
         <Value>4.8</Value>
+      </Skill>
+      <Skill>
+        <Name>Yurchenko 5/2</Name>
+        <Value>5.2</Value>
       </Skill>
     </Group>
   </Event>
@@ -118,12 +226,20 @@
         <Name>Peach Basket Handstand</Name>
         <Value>0.4</Value>
       </Skill>
+      <Skill>
+        <Name>Giant Swing</Name>
+        <Value>0.3</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Upper-Arm Support</Name>
       <Skill>
         <Name>Back-Uprise Front Toss</Name>
         <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Back Uprise Handstand</Name>
+        <Value>0.2</Value>
       </Skill>
     </Group>
     <Group>
@@ -132,11 +248,23 @@
         <Name>Straddle 5/4</Name>
         <Value>0.4</Value>
       </Skill>
+      <Skill>
+        <Name>Diamidov</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Stutz Handstand</Name>
+        <Value>0.3</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Dismount</Name>
       <Skill>
-        <Name>Double Front</Name>
+        <Name>Double Front Tucked</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Double Back Piked</Name>
         <Value>0.4</Value>
       </Skill>
     </Group>
@@ -148,6 +276,10 @@
       <Skill>
         <Name>Tkachev</Name>
         <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Yamawaki</Name>
+        <Value>0.4</Value>
       </Skill>
     </Group>
     <Group>
@@ -163,11 +295,19 @@
         <Name>Endo</Name>
         <Value>0.2</Value>
       </Skill>
+      <Skill>
+        <Name>Stalder</Name>
+        <Value>0.2</Value>
+      </Skill>
     </Group>
     <Group>
       <Name>Dismount</Name>
       <Skill>
         <Name>Double Layout</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Double Front Tucked</Name>
         <Value>0.3</Value>
       </Skill>
     </Group>
