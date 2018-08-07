@@ -9,11 +9,15 @@
         <Value>0.3</Value>
       </Skill>
       <Skill>
-        <Name>Double Front</Name>
-        <Value>0.4</Value>
+        <Name>Front 3/2</Name>
+        <Value>0.3</Value>
       </Skill>
       <Skill>
         <Name>Front Double Full</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Double Front</Name>
         <Value>0.4</Value>
       </Skill>
     </Group>
@@ -24,12 +28,24 @@
         <Value>0.2</Value>
       </Skill>
       <Skill>
+        <Name>Back 3/2</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
         <Name>Back Double Full</Name>
-        <Value>0.4</Value>
+        <Value>0.3</Value>
       </Skill>
       <Skill>
         <Name>Double Back Tuck</Name>
         <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Arabian</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
+        <Name>Double Arabian</Name>
+        <Value>0.4</Value>
       </Skill>
     </Group>
     <Group>
@@ -43,8 +59,20 @@
         <Value>0.4</Value>
       </Skill>
       <Skill>
+        <Name>V-Hold</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
         <Name>V-Press</Name>
         <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Manna</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>Manna Press</Name>
+        <Value>0.4</Value>
       </Skill>
     </Group>
   </Event>
@@ -56,7 +84,7 @@
         <Name>Mikulak</Name>
         <Value>0.4</Value>
       </Skill>
-      \<Skill>
+      <Skill>
         <Name>Scissor Full Travel</Name>
         <Value>0.3</Value>
       </Skill>
@@ -67,6 +95,26 @@
     </Group>
     <Group>
       <Name>Circle</Name>
+      <Skill>
+        <Name>Circle</Name>
+        <Value>0.1</Value>
+      </Skill>
+      <Skill>
+        <Name>Flair</Name>
+        <Value>0.1</Value>
+      </Skill>
+      <Skill>
+        <Name>Moore</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
+        <Name>Direct Stockli A</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
+        <Name>Direct Stockli-B</Name>
+        <Value>0.2</Value>
+      </Skill>
       <Skill>
         <Name>Flaired Spindle Over Single Pommel</Name>
         <Value>0.4</Value>
@@ -83,6 +131,38 @@
     <Group>
       <Name>Travel</Name>
       <Skill>
+        <Name>Side Travel Forward</Name>
+        <Value>0.1</Value>
+      </Skill>
+      <Skill>
+        <Name>3/3 Side Travel Forward</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
+        <Name>3/3 Side Travel Forward w/ Hands Between Pommels</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>3/3 Side Travel Forward w/ Over Both Pommels</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Side Travel Backward</Name>
+        <Value>0.1</Value>
+      </Skill>
+      <Skill>
+        <Name>3/3 Side Travel Backward</Name>
+        <Value>0.2</Value>
+      </Skill>
+      <Skill>
+        <Name>3/3 Side Travel Backward w/ Hands Between Pommels</Name>
+        <Value>0.3</Value>
+      </Skill>
+      <Skill>
+        <Name>3/3 Side Travel Backward w/ Over Both Pommels</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
         <Name>Magyar-C</Name>
         <Value>0.3</Value>
       </Skill>
@@ -91,12 +171,28 @@
         <Value>0.4</Value>
       </Skill>
       <Skill>
+        <Name>Magyar-E</Name>
+        <Value>0.5</Value>
+      </Skill>
+      <Skill>
         <Name>Sivado-C</Name>
         <Value>0.3</Value>
       </Skill>
       <Skill>
         <Name>Sivado-D</Name>
         <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Roth</Name>
+        <Value>0.4</Value>
+      </Skill>
+      <Skill>
+        <Name>Wu Guonian</Name>
+        <Value>0.5</Value>
+      </Skill>
+      <Skill>
+        <Name>Tong Fei</Name>
+        <Value>0.3</Value>
       </Skill>
     </Group>
     <Group>
